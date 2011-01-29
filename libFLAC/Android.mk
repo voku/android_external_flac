@@ -25,6 +25,9 @@ LOCAL_CFLAGS += -O3 -funroll-loops -finline-functions
 
 LOCAL_LDLIBS += -lm
 
+LOCAL_MODULE_TAGS := optional
+LOCAL_PRELINK_MODULE := false
+
 LOCAL_ARM_MODE := arm
 
 LOCAL_MODULE := libFLAC
